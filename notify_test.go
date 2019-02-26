@@ -1,7 +1,7 @@
 package notify_test
 
 import (
-	"kajito/notify"
+	"github.com/krystah/notify"
 	"testing"
 )
 

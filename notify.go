@@ -27,7 +27,7 @@ type notifier interface {
 	display()
 }
 
-func (n *Notification) display() {
+func (n Notification) display() {
 
 	cmd := exec.Command(
 		"terminal-notifier",
